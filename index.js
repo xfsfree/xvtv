@@ -43,7 +43,7 @@ client.login(process.env.token);
 
 client.once('ready', () => {
   log.info(`I am logged in as ${client.user.tag} to Discord!`); // Say hello to console
-  client.user.setActivity(`${config.prefix}gen │ qwfrz${config.servername}`, { type: "STREAMING", url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ" }); // Set the bot's activity status
+  client.user.setActivity(`${config.prefix}gen │ xvtv${config.servername}`, { type: "STREAMING", url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ" }); // Set the bot's activity status
   /* You can change the activity type to:
    * LISTENING
    * WATCHING
